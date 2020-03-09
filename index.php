@@ -21,42 +21,59 @@
  </div>
 
 
-
 <div id="formulaire">
 <form method="post" action="type_machine.php">
-   <p>
+  <div class="center-div">
+      <ul class="list-inline" >
+    <li>
       <label for="materiel">CADRE</label><br />
        <select name="cadre" id="cadre">
                <option value="A">CADRE 1.20</option>
                <option value="B">CADRE 2.00</option>
                <option value="C">CADRE 3.50</option> 
        </select>
+    </li>
+    <li>
       <label for="materiel">ATTELAGE</label><br />
        <select name="attelage" id="attelage">
                <option value="A">CAT.1</option>
                <option value="B">CAT.2</option>
                <option value="C">CAT.3</option> 
        </select>
+    </li>
+
+    <li>
       <label for="materiel">DENTS</label><br />
        <select name="dents" id="dents">
                <option value="A">Dents carrées 30mm * 650mm</option>
                <option value="B">Dents sécurité ressort</option>
                <option value="C">Disques Agrisem</option> 
        </select>
+    </li>
+
+    <li>
       <label for="materiel">SEMOIR</label><br />
        <select name="semoir" id="semoir">
                <option value="A">SANS</option>
                <option value="B">Semoir Delimbe</option>
        </select>
+    </li>
+
+    <li>
       <label for="materiel">ROULEAU</label><br />
        <select name="rouleau" id="rouleau">
                <option value="A">Culti Packer</option>
                <option value="B">Rouleau Cage</option>
        </select>
-   </p>
-   <input type="submit" value="Envoyer" />
+    </li>
+      </ul>
+  </div>
+      <div id="valider" class="center-div">
+   <input type="submit" value="Voir sa configuration" />
+      </div>
 </form>
 </div>
+
 
 
 
@@ -68,9 +85,9 @@
     <div id="footer">
         <ul class="list-inline">
         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-apple"></i></a></li>
-        <li><a href="#"><i class="fa fa-github"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCb97s22T-F5Ces1hiuDK2ng"><i class="fa fa-youtube"></i></a></li>
         </ul>
     </div>
 
