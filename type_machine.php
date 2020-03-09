@@ -18,7 +18,32 @@
 
  <div> 
 
-<p> Type machine <?php echo $_post['cadre']; ?> </p>
+<p> Choix du cadre <?php echo $_POST['cadre']; ?> </p>
+<p> Choix de l'attelage <?php echo $_POST['attelage']; ?> </p>
+<p> Choix des dents <?php echo $_POST['dents']; ?> </p>
+<p> Choix du semoir <?php echo $_POST['semoir']; ?> </p>
+<p> Choix du rouleau <?php echo $_POST['rouleau']; ?> </p>
+
+
+
+<p>
+Le matériel est de type
+<?php
+
+$cadre = $_POST['cadre'];
+$attelage = $_POST['attelage'];
+$dents = $_POST['dents'];
+$semoir = $_POST['semoir'];
+$rouleau = $_POST['rouleau'];
+
+$type = ("$cadre$attelage$dents$semoir$rouleau");
+print "$type"
+?>
+</p>
+
+
+
+
 
  </div>
 

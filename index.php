@@ -16,11 +16,38 @@
              <!-- <p>Configurez vous même votre outil de travail</p> -->
           </div>
 
- <div> 
 
-<p> Type machine <?php echo $_post['cadre']; ?> </p>
 
- </div>
+
+<form method="post" action="type_machine.php">
+   <p>
+      <label for="materiel">Configurez votre outil</label><br />
+       <select name="cadre" id="cadre">
+               <option value="A">CADRE 1.20</option>
+               <option value="B">CADRE 2.00</option>
+               <option value="C">CADRE 3.50</option> 
+       </select>
+       <select name="attelage" id="attelage">
+               <option value="A">CAT.1</option>
+               <option value="B">CAT.2</option>
+               <option value="C">CAT.3</option> 
+       </select>
+       <select name="dents" id="dents">
+               <option value="A">Dents carrées 30mm * 650mm</option>
+               <option value="B">Dents sécurité ressort</option>
+               <option value="C">Disques Agrisem</option> 
+       </select>
+       <select name="semoir" id="semoir">
+               <option value="A">SANS</option>
+               <option value="B">Semoir Delimbe</option>
+       </select>
+       <select name="rouleau" id="rouleau">
+               <option value="A">Culti Packer</option>
+               <option value="B">Rouleau Cage</option>
+       </select>
+   </p>
+   <input type="submit" value="Envoyer" />
+</form>
 
 
 
