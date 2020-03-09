@@ -1,5 +1,5 @@
 body{
-  background-image: url(images/brouillard.jpg);
+  background-color: white;
   background-size: cover;
   color: rgb();
   font-size: 20px;
@@ -12,7 +12,7 @@ h1{
   font-size: 35px;
 }
 h2 {
-  font-family: Courier;
+  font-family: Avenir Next;
   color: white;
   font-weight: lighter;
   font-size: 18px;
@@ -20,10 +20,22 @@ h2 {
 a {
   color: yellow;
 }
-a:hover {
-  text-decoration: none;
-  color: red;
+
+form {
+  /* Uniquement centrer le formulaire sur la page */
+  margin: 0 auto;
+  width: 400px;
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
 }
+
+#choix {
+  background-color: #FEAD32;
+  padding: 60px;
+  text-align: middle;
+  }
 
 #menu_haut {
   background-color: #FEAD32;
@@ -31,10 +43,16 @@ a:hover {
   text-align: middle;
   }
 
+  #configurateur {
+  background-color: #FEAD64;
+  padding: 30px;
+  text-align: middle;
+  }
+
 .card {text-align: center; padding: 40px}
 
 #footer {
-  background-color: green;
+  background-color: orange;
   color : blue;
   padding : 30px;
 }
