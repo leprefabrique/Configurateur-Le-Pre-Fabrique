@@ -1,5 +1,5 @@
 body{
-  background-color: white;
+  background-color: #F4EEEB;
   background-size: cover;
   color: rgb();
   font-size: 20px;
@@ -31,11 +31,7 @@ form {
   border-radius: 1em;
 }
 
-#choix {
-  background-color: #FEAD32;
-  padding: 60px;
-  text-align: middle;
-  }
+
 
 #menu_haut {
   background-color: #FEAD32;
@@ -43,11 +39,13 @@ form {
   text-align: middle;
   }
 
-  #configurateur {
-  background-color: #FEAD64;
-  padding: 30px;
+#formulaire {
+  background-color: #F4EEEB;
+  font-family: Avenir Next;
+  padding: 60px;
   text-align: middle;
   }
+
 
 .card {text-align: center; padding: 40px}
 

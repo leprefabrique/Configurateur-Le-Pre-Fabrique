@@ -11,7 +11,8 @@
 
       <body>
   	      <div id="menu_haut">
-             <img src="images/logo_leprefabrique.png" alt="picture description" width="100" align="middle">
+             <a href="index.php"><img </a>
+             <img src="images/logo_leprefabrique.png" alt="picture description" width="100" align="middle"> </a>
              <h1>Configurateur Le Pré Fabriqué</h1>
              <!-- <p>Configurez vous même votre outil de travail</p> -->
           </div>
@@ -41,6 +42,10 @@ print "$type"
 ?>
 </p>
 
+
+<div id="affichage_images">
+             <img src="images/vues/<?php print "$type"?>.jpeg" alt="picture description" width="100" align="middle">
+</div>
 
 
 
