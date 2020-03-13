@@ -10,12 +10,12 @@
   </head>
 
       <body>
-  	      <div id="menu_haut">
-             <a href="index.php"><img </a>
-             <img src="images/logo_leprefabrique.png" alt="picture description" width="100" align="middle"> </a>
-             <h1>Configurateur Le Pré Fabriqué</h1>
-             <!-- <p>Configurez vous même votre outil de travail</p> -->
-          </div>
+
+        <div id="menu_haut">
+              <a href="index.php"><img</a>
+                  <img src="images/logo_leprefabrique.png" alt="picture description" width="100" align="middle"> </a>
+                  <h1>Configurateur Le Pré Fabriqué</h1>
+        </div>
 
  <div> 
 
@@ -91,16 +91,16 @@ print "$type"
           </div> -->
 
 
-    <div id="line">
+<div id="line">
     <p>Bienvenue sur le configurateur Le Pré Fabriqué</p>
-	</div>
+  </div>
 
     <div id="footer">
         <ul class="list-inline">
-         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-apple"></i></a></li>
-        <li><a href="#"><i class="fa fa-github"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCb97s22T-F5Ces1hiuDK2ng"><i class="fa fa-youtube"></i></a></li>
         </ul>
     </div>
 
